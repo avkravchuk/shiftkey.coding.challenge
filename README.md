@@ -1,0 +1,27 @@
+# The Problem
+
+Our providers in Dallas, TX need the ability to see nearby shifts available on the ShfitKey platform to plan their work week. Your goal is to build an interface that allows them to accomplish this.
+
+## Details
+In `CodingChallenge.xcodeproj`, use `ShiftsView.swift` to get started. Using an address of "Dallas, TX", display one week of nearby shifts that come back from the [Available Shifts API](https://bitbucket.org/shiftkeyllc/ios-coding-challenge/src/09ee4615a9dd/API-DOC.md?at=master) in a list. The shift cell should include information relevant to the provider and when tapped, it should present a modal that will display more information about the shift.
+
+The coding challenge should take around 2-4 hours. The submitted code should reflect what you feel represents your best work.
+
+You should be prepared to talk about your solution in an interview setting.
+
+### Requirements ###
+
+* Written in Swift using SwiftUI
+* Fetches available shifts using the [Available Shifts API](https://bitbucket.org/shiftkeyllc/ios-coding-challenge/src/09ee4615a9dd/API-DOC.md?at=master) with an address of "Dallas, TX"
+* On app launch, the current week of shifts should be fetched and displayed, starting with today's date
+* Scrolling loads shifts for future weeks
+* Tapping on a shift should present a shift details modal
+* Use of 3rd party libraries is allowed. But, be thoughtful about which libraries are used and why
+
+### What are we looking for? ###
+
+* Solid architecture
+* Use of design patterns
+* Familiarity with mobile frameworks
+* Testability
+* Submit what you feel represents your best work
