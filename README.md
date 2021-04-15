@@ -9,6 +9,8 @@ The coding challenge should take around 2-4 hours. The submitted code should ref
 
 You should be prepared to talk about your solution in an interview setting.
 
+To start working on the challenge, clone this repo onto your development machine. Commit your changes there and when finished, publish your repo on your public bitbucket or github account.
+
 ### Requirements ###
 
 * Written in Swift using SwiftUI
