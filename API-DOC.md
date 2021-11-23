@@ -31,8 +31,8 @@ The returns `within_distance` in the respone for each facility will always be a 
 
 | Parameter | Status   | Description                                                                                                                                                                                                                                                                                                |
 |-----------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|type	    |optional  |Response type. Possible values: **week, 4day and list**.|
-|start	    |optional  |Start date/datetime. Possible formats: **YYYY-MM-DD** and ISO 8601 date time.
+|type       |optional  |Response type. Possible values: **week, 4day and list**.|
+|start      |optional  |Start date/datetime. Possible formats: **YYYY-MM-DD** and ISO 8601 date time.
 |end        |optional  |End date/datetime. Possible formats: **YYYY-MM-DD** and ISO 8601 date time. Only applicable when type query param is list.
 |address	|**required**|Address to serve as the search location. Disregarded if lat and lng are provided. A 422 is returned if the address cannot be geo-coded.
 |radius     |optional  |Distance from lat/lng or address to be used in the shift search. Defaults to 150. Distance is in miles.
