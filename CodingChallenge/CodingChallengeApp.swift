@@ -11,7 +11,7 @@ import SwiftUI
 struct CodingChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ShiftsView()
+            ShiftsView(viewModel: ShiftsViewModel(dataProvider: ShiftsDataProvider()))
         }
     }
 }

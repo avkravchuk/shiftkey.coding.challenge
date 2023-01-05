@@ -13,6 +13,16 @@
 		2349FD6D261E4F6A00A1FEAA /* CodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349FD6C261E4F6A00A1FEAA /* CodingChallengeTests.swift */; };
 		2349FD78261E4F6A00A1FEAA /* CodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349FD77261E4F6A00A1FEAA /* CodingChallengeUITests.swift */; };
 		2349FD89261E4F9900A1FEAA /* ShiftsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2349FD88261E4F9900A1FEAA /* ShiftsView.swift */; };
+		84212A412964D15C00D8793D /* ShiftsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84212A402964D15C00D8793D /* ShiftsViewModel.swift */; };
+		84212A432964D1C500D8793D /* ShiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84212A422964D1C500D8793D /* ShiftModel.swift */; };
+		84212A4629658E4B00D8793D /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84212A4529658E4B00D8793D /* HexColor.swift */; };
+		84212A482965AEAD00D8793D /* ShiftsDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84212A472965AEAD00D8793D /* ShiftsDataProvider.swift */; };
+		84212A4B2967069500D8793D /* WebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84212A4A2967069500D8793D /* WebAPI.swift */; };
+		84212A4E296706EA00D8793D /* ShiftDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84212A4D296706EA00D8793D /* ShiftDetails.swift */; };
+		84212A502967070E00D8793D /* ShiftsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84212A4F2967070E00D8793D /* ShiftsSection.swift */; };
+		84212A522967071D00D8793D /* ShiftInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84212A512967071D00D8793D /* ShiftInfo.swift */; };
+		84212A55296707D600D8793D /* ShiftInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84212A54296707D600D8793D /* ShiftInfoView.swift */; };
+		84212A57296709AC00D8793D /* ShiftLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84212A56296709AC00D8793D /* ShiftLineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,16 @@
 		2349FD77261E4F6A00A1FEAA /* CodingChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingChallengeUITests.swift; sourceTree = "<group>"; };
 		2349FD79261E4F6A00A1FEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2349FD88261E4F9900A1FEAA /* ShiftsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsView.swift; sourceTree = "<group>"; };
+		84212A402964D15C00D8793D /* ShiftsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsViewModel.swift; sourceTree = "<group>"; };
+		84212A422964D1C500D8793D /* ShiftModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftModel.swift; sourceTree = "<group>"; };
+		84212A4529658E4B00D8793D /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
+		84212A472965AEAD00D8793D /* ShiftsDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsDataProvider.swift; sourceTree = "<group>"; };
+		84212A4A2967069500D8793D /* WebAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPI.swift; sourceTree = "<group>"; };
+		84212A4D296706EA00D8793D /* ShiftDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftDetails.swift; sourceTree = "<group>"; };
+		84212A4F2967070E00D8793D /* ShiftsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftsSection.swift; sourceTree = "<group>"; };
+		84212A512967071D00D8793D /* ShiftInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftInfo.swift; sourceTree = "<group>"; };
+		84212A54296707D600D8793D /* ShiftInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftInfoView.swift; sourceTree = "<group>"; };
+		84212A56296709AC00D8793D /* ShiftLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftLineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +115,13 @@
 		2349FD59261E4F6900A1FEAA /* CodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				84212A492967068B00D8793D /* API */,
+				84212A4429658E1C00D8793D /* Helpers */,
+				84212A3F2964D14800D8793D /* Models */,
+				84212A53296707B400D8793D /* Shared Views */,
+				84212A3E2964D13D00D8793D /* Shifts */,
+				84212A4C296706D700D8793D /* Shift Details */,
 				2349FD5A261E4F6900A1FEAA /* CodingChallengeApp.swift */,
-				2349FD88261E4F9900A1FEAA /* ShiftsView.swift */,
 				2349FD5E261E4F6A00A1FEAA /* Assets.xcassets */,
 				2349FD63261E4F6A00A1FEAA /* Info.plist */,
 				2349FD60261E4F6A00A1FEAA /* Preview Content */,
@@ -128,6 +153,59 @@
 				2349FD79261E4F6A00A1FEAA /* Info.plist */,
 			);
 			path = CodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+		84212A3E2964D13D00D8793D /* Shifts */ = {
+			isa = PBXGroup;
+			children = (
+				2349FD88261E4F9900A1FEAA /* ShiftsView.swift */,
+				84212A402964D15C00D8793D /* ShiftsViewModel.swift */,
+				84212A472965AEAD00D8793D /* ShiftsDataProvider.swift */,
+			);
+			path = Shifts;
+			sourceTree = "<group>";
+		};
+		84212A3F2964D14800D8793D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84212A4F2967070E00D8793D /* ShiftsSection.swift */,
+				84212A512967071D00D8793D /* ShiftInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84212A4429658E1C00D8793D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84212A4529658E4B00D8793D /* HexColor.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		84212A492967068B00D8793D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				84212A4A2967069500D8793D /* WebAPI.swift */,
+				84212A422964D1C500D8793D /* ShiftModel.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		84212A4C296706D700D8793D /* Shift Details */ = {
+			isa = PBXGroup;
+			children = (
+				84212A4D296706EA00D8793D /* ShiftDetails.swift */,
+			);
+			path = "Shift Details";
+			sourceTree = "<group>";
+		};
+		84212A53296707B400D8793D /* Shared Views */ = {
+			isa = PBXGroup;
+			children = (
+				84212A54296707D600D8793D /* ShiftInfoView.swift */,
+				84212A56296709AC00D8793D /* ShiftLineView.swift */,
+			);
+			path = "Shared Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +337,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84212A502967070E00D8793D /* ShiftsSection.swift in Sources */,
+				84212A4B2967069500D8793D /* WebAPI.swift in Sources */,
+				84212A4E296706EA00D8793D /* ShiftDetails.swift in Sources */,
+				84212A57296709AC00D8793D /* ShiftLineView.swift in Sources */,
+				84212A412964D15C00D8793D /* ShiftsViewModel.swift in Sources */,
+				84212A482965AEAD00D8793D /* ShiftsDataProvider.swift in Sources */,
 				2349FD89261E4F9900A1FEAA /* ShiftsView.swift in Sources */,
+				84212A4629658E4B00D8793D /* HexColor.swift in Sources */,
+				84212A55296707D600D8793D /* ShiftInfoView.swift in Sources */,
+				84212A522967071D00D8793D /* ShiftInfo.swift in Sources */,
+				84212A432964D1C500D8793D /* ShiftModel.swift in Sources */,
 				2349FD5B261E4F6900A1FEAA /* CodingChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
